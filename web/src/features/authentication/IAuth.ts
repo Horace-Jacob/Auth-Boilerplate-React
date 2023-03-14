@@ -1,4 +1,4 @@
-export type IAuth = {
+export interface IAuth {
   id: number;
   name: string;
   verified_email: boolean;
@@ -7,4 +7,4 @@ export type IAuth = {
   family_name: string;
   picture: string;
   locale: string;
-};
+}
